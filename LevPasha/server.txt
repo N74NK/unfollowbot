@@ -1,0 +1,29 @@
+import time, os
+d1 = '\033[1;90m'
+r1 = '\033[1;91m'
+g1 = '\033[1;92m'
+y1 = '\033[1;93m'
+b1 = '\033[1;94m'
+p1 = '\033[1;95m'
+c1 = '\033[1;96m'
+w1 = '\033[1;97m'
+d0 = '\033[0;90m'
+r0 = '\033[0;91m'
+g0 = '\033[0;92m'
+y0 = '\033[0;93m'
+b0 = '\033[0;94m'
+p0 = '\033[0;95m'
+c0 = '\033[0;96m'
+w0 = '\033[0;97m'
+re = '\033[0;0m'
+os.system("clear")
+print(f"""\n\n
+{c1} _______      _ {p1}___ ___ ___  
+{c1} \_   _/_ ___| {re}|{p1} | |_  |   | 
+{c1}   | | . | . | {re}|_ {p1} |  _/ | | 
+{c1}   |_|___|___|___{re}|{p1}_|___|___|
+
+{r1}[!] {d0}sorry this tool is under construction
+    this tool has an auto update feature
+    it will be finished in the next few days
+""");exit(2)
